@@ -1,0 +1,18 @@
+{
+  "name": "fix-printer-name",
+  "version": "1.0.0",
+  "description": "Reset our Canon AirPlay printer name",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edward Anderson <nilbus@nilbus.com>",
+  "license": "ISC",
+  "scripts": {
+    "replay": "script.json"
+  },
+  "dependencies": {
+    "@puppeteer/replay": "latest",
+    "puppeteer": "latest"
+  }
+}

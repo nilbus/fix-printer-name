@@ -1,0 +1,2 @@
+#!/bin/bash
+npx @puppeteer/replay script.json

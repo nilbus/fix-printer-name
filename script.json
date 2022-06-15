@@ -1,0 +1,192 @@
+{
+  "title": "fix printer name",
+  "steps": [
+    {
+      "type": "setViewport",
+      "width": 1280,
+      "height": 751,
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false,
+      "isLandscape": false
+    },
+    {
+      "type": "navigate",
+      "url": "http://192.168.86.80/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "http://192.168.86.80/",
+          "title": "Remote UI: Login: LBP622C/623C: LBP622C/623C"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "aria/System Manager Mode"
+        ],
+        [
+          "#i0012A"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 8,
+      "offsetY": 0.546875
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "aria/Log In"
+        ],
+        [
+          "#submitButton"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 27,
+      "offsetY": 10.046875,
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "http://192.168.86.80/portal_top.html",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "aria/Settings/Registration",
+          "aria/[role=\"generic\"]"
+        ],
+        [
+          "#navStandard > ul > li:nth-child(4) > a > span"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 144,
+      "offsetY": 25.4140625,
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "http://192.168.86.80/p_paper_select.html",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "aria/Network Settings"
+        ],
+        [
+          "#navigation > ul:nth-child(3) > li > ul > li:nth-child(4) > a"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 71,
+      "offsetY": 6.90625,
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "http://192.168.86.80/m_network.html",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "aria/AirPrint Settings[role=\"link\"]"
+        ],
+        [
+          "#contents > div.ContentModule > div.ModuleElement > table > tbody:nth-child(12) > tr > th > a"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 36,
+      "offsetY": 11.46875,
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "http://192.168.86.80/m_network_airprint.html",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "aria/Edit..."
+        ],
+        [
+          "#contents > div.ContentOperation > fieldset > input"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 25,
+      "offsetY": 10.40625
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "#\\30  > div.ContentModuleEditable > div:nth-child(3) > table > tbody"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 537,
+      "offsetY": 25.3125
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "#i2072"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 149.1015625,
+      "offsetY": 7.359375
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "frame": [],
+      "selectors": [
+        [
+          "#i2072"
+        ]
+      ],
+      "value": "Captain Hook's Canon"
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "aria/OK"
+        ],
+        [
+          "#submitButton"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 25.0625,
+      "offsetY": 12.40625,
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "http://192.168.86.80/m_network_airprint.html",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}
